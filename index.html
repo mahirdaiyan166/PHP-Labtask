@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHP From Submission</title>
+</head>
+<body>
+
+		<fieldset style="width:350px;height: 100px;" >
+			<legend>NAME</legend>
+			<form method="POST" action="submit.php">
+			<input type="text"placeholder="Enter Your Name" name="name"><br>
+			_________________________________________
+			<br>
+			<br>
+			<input type="submit" value="Submit">
+			</form>
+		</fieldset>
+<br>
+<br>
+		<fieldset style="width:350px;height: 100px;" >
+			<legend>EMAIL</legend>
+			<form method="POST" action="submit.php">
+			<input type="email"placeholder="Enter Your Email" name="email"><br>
+			_________________________________________
+			<br>
+			<br>
+			<input type="submit" value="Submit">
+			</form>
+		</fieldset>
+		<br>
+<br>
+		<fieldset style="width:350px;height: 100px;" >
+			<legend>DATE OF BIRTH</legend>
+			<form method="POST" action="submit.php">
+			<input type="date"name="date"><br>
+			_________________________________________
+			<br>
+			<br>
+			<input type="submit" value="Submit">
+			</form>
+		</fieldset>
+
+		<br>
+<br>
+		<fieldset style="width:350px;height: 100px;" >
+			<legend>GENDER</legend>
+			<form method="POST" action="submit.php">
+			<input  class="gender" type="radio"name="gender" id="m"> 
+ 				<label for="m">Male</label> 
+ 				<input class="gender" type="radio"name="gender" id="f"> 
+ 				<label for="f">Female</label> 
+ 				<input  class="gender" type="radio"name="gender"id="c"> 
+ 				<label for="c">Other</label>
+			<br>
+			_________________________________________
+			<br>
+			<br>
+			<input type="submit" value="Submit">
+			</form>
+		</fieldset>
+
+		<br>
+<br>
+		<fieldset style="width:350px;height: 100px;" >
+			<legend>DEGREE</legend>
+			<form method="POST" action="submit.php">
+						<input type="checkbox" name="option">SSC
+						<input type="checkbox" name="option[]">HSC
+						<input type="checkbox" name="option[]">BSc
+						<input type="checkbox" name="option[]">MSc
+
+						<br>
+			_________________________________________
+			<br>
+			<br>
+			<input type="submit" value="Submit">
+			</form>
+		</fieldset>
+		<br>
+<br>
+		<fieldset style="width:350px;height: 100px;" >
+			<legend>BLOOD GROUP</legend>
+			<form method="POST" action="submit.php">
+				<select>
+			<option>Select Your Blood Group</option>
+ 					<option value="a">A+</option>
+ 					<option value="a">AB+</option>
+ 					<option value="a">B+</option>
+ 					<option value="a">O+</option>
+ 					<option value="a">O-</option>
+ 					</select>
+			<br>
+			_________________________________________
+			<br>
+			<br>
+			<input type="submit" value="Submit">
+			</form>
+		</fieldset>
+</body>
+</html>
